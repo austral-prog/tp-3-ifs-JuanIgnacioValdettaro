@@ -25,17 +25,16 @@ def calculator():
     num1=float(input())
     num2=float(input())
     operador=input()
-    if operador==("+"):
+    if operador=="+":
         print(f"Resultado: {num1 + num2}")
-    elif operador==("-"):
+    elif operador=="-":
         print(f"Resultado: {num1 - num2}")
-    elif operador==("*"):
+    elif operador=="*":
         print(f"Resultado: {num1 * num2}")
-    elif operador==("/"):
+    elif operador=="/":
         if num2==0:
             print("Error: division por cero")
         else:
             print(f"Resultado: {num1 / num2}")
     else:
         print("Operacion invalida")
-

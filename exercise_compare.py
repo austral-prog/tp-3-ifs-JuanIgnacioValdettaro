@@ -23,4 +23,3 @@ def compare():
         print(f"{n1} es menor que {n2}")
     else:
         print(f"{n1} es igual a {n2}")
-
