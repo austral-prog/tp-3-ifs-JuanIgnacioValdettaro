@@ -18,7 +18,7 @@ def leap_year():
         El año 1700 no es bisiesto
     """
     ano=int(input())
-    if ano%4==0 and (ano%100)==0 and ano%400==0:
+    if ano%4==0 and (ano%100!=0 or ano%400==0):
         print(f"El año {ano} es bisiesto")
     else:
         print(f"El año {ano} no es bisiesto")
